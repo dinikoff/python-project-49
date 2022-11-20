@@ -8,3 +8,7 @@
 ## Brain-even Gameplay
 
 [![asciicast](https://asciinema.org/a/Owl295uZT8RzWCniGgy0A7QSA.svg)](https://asciinema.org/a/Owl295uZT8RzWCniGgy0A7QSA)
+
+## Brain-calc Gameplay
+
+[![asciicast](https://asciinema.org/a/6GVBzJ3kqipDek3MEbmLWpIYy.svg)](https://asciinema.org/a/6GVBzJ3kqipDek3MEbmLWpIYy)
