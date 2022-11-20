@@ -1,4 +1,4 @@
-import random
+from brain_games.generator import get_numbers
 
 
 def get_welcome_message():
@@ -6,6 +6,6 @@ def get_welcome_message():
 
 
 def get_game_data():
-    question = random.randint(1, 99)
+    question = get_numbers()[0]
     answer = 'yes' if question % 2 == 0 else 'no'
     return question, answer
