@@ -10,7 +10,7 @@ def game_engine(game):
     count = 0
     while count < NUM_OF_TRYING:
         question, correct_answer = game.get_game_data()
-        print(question)
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
             print('Correct!')
