@@ -1,4 +1,7 @@
-from brain_games.generator import get_numbers
+import random
+
+MAX_NUMBER = 99
+MIN_NUMBER = 1
 
 
 def get_welcome_message():
@@ -6,6 +9,6 @@ def get_welcome_message():
 
 
 def get_game_data():
-    question = get_numbers()[0]
+    question = random.randint(MIN_NUMBER, MAX_NUMBER)
     answer = 'yes' if question % 2 == 0 else 'no'
     return question, answer

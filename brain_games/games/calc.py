@@ -1,5 +1,7 @@
 import random
-from brain_games.generator import get_numbers
+
+MAX_NUMBER = 99
+MIN_NUMBER = 1
 
 
 def get_welcome_message():
@@ -7,7 +9,8 @@ def get_welcome_message():
 
 
 def get_game_data():
-    first_number, second_number = get_numbers()
+    first_number = random.randint(MIN_NUMBER, MAX_NUMBER)
+    second_number = random.randint(MIN_NUMBER, MAX_NUMBER)
     operation = ('+', '-', '*')[random.randint(0, 2)]
     question = f'{first_number} {operation} {second_number}'
     if operation == '+':
